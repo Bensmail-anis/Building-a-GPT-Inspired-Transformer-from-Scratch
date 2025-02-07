@@ -1,0 +1,52 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Cache and temporary files
+*.log
+*.cache
+*.tmp
+*.pid
+
+# Environment variables and secrets
+.env
+*.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Testing artifacts
+.tox/
+.coverage
+*.coverage.*
+.cache/
+pytest_cache/
+
+# Machine learning and data science files
+*.h5
+*.ckpt
+*.pth
+*.pkl
+*.csv
+*.dat
+*.npy
+*.npz
