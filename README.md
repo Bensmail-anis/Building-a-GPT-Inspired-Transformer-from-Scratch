@@ -5,7 +5,7 @@ It still carries some fragmented, abstract tone , so it can be enhanced more and
 
 This repository is inspired by the "Attention Is All You Need" paper by Vaswani et al. (2017), which introduced the Transformer architecture , we closely follow its core principles while making a slight modification .Our model network consists of **10.82 million parameters**, optimized for text generation tasks. The loss function used is **Average Negative Log-Likelihood (ANLL)**, making it suitable for evaluating language modeling quality.
 
-![attention](assets/attention is all you need.png)
+![attention](assets/attention.png)
 
 ### 📂 **Dataset**
 
@@ -36,7 +36,7 @@ The dataset is composed of dialogues and narration from _Classroom of the Elite_
     
 *   **Validation Loss:** **0.9729 (Negative Log-Likelihood)**
 
-    ![loss](assets/loss plot.png)
+    ![loss](assets/loss_plot.png)
 
 ### ✍ **Sample Generation**
 
