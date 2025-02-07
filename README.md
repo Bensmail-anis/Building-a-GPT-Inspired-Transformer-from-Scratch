@@ -1,3 +1,4 @@
+# Crafting the Attention!
 This repository contains an implementation of a **decoder Transformer model** inspired by the original GPT architecture, designed to capture the **writing style and speech patterns** of characters from _Classroom of the Elite_ just for educational purposes. The model is trained to generate text that mimics the linguistic style of the light novel, producing new sentences in the same tone as the source material.
 It still carries some fragmented, abstract tone , so it can be enhanced more and better .
 
