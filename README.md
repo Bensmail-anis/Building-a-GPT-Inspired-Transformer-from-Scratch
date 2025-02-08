@@ -4,7 +4,8 @@ It still carries some fragmented, abstract tone , so it can be enhanced more and
 
 ### 📜 **Paper Implementation**
 
-This repository is inspired by the "Attention Is All You Need" paper by Vaswani et al. (2017), which introduced the Transformer architecture , we closely follow its core principles while making a slight modification .Our model network consists of **10.82 million parameters**, optimized for text generation tasks. The loss function used is **Average Negative Log-Likelihood (ANLL)**, making it suitable for evaluating language modeling quality.
+This repository is inspired by the "Attention Is All You Need" paper by Vaswani et al. (2017), which introduced the Transformer architecture , we closely follow its core principles while making a slight modification based on the OpenAI paper "Language Models are Unsupervised Multitask Learners".
+Our model network consists of **10.82 million parameters**, optimized for text generation tasks. The loss function used is **Average Negative Log-Likelihood (ANLL)**, making it suitable for evaluating language modeling quality.
 
 ![attention](assets/attention.png)
 
