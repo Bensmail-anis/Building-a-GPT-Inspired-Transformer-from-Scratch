@@ -27,6 +27,8 @@ The dataset is composed of dialogues and narration from _Classroom of the Elite_
 *   **Dropout** applied after each attention scores , after the projection of concatenated attention heads and applied after the second linear layer in the feedforward network.
 
 *   **Usual learned linear transformation and softmax function** to convert the decoder output to predicted next-token probabilities.
+
+  Following the OpenAI papers "Language Models are Unsupervised Multitask Learners" , Layer normalization was moved to the input of each sub-block, similar to a pre-activation residual network and an additional layer normalization was added after the final selfattention block .
     
 
 ### 🏋 **Training Details**
