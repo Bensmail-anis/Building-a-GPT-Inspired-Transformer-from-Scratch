@@ -28,7 +28,7 @@ The dataset is composed of dialogues and narration from _Classroom of the Elite_
 
 *   **Usual learned linear transformation and softmax function** to convert the decoder output to predicted next-token probabilities.
 
-  Following the OpenAI papers "Language Models are Unsupervised Multitask Learners" , Layer normalization was moved to the input of each sub-block, similar to a pre-activation residual network and an additional layer normalization was added after the final selfattention block .
+  Following the OpenAI paper "Language Models are Unsupervised Multitask Learners" , Layer normalization was moved to the input of each sub-block, similar to a pre-activation residual network and an additional layer normalization was added after the final selfattention block .
     
 
 ### 🏋 **Training Details**
